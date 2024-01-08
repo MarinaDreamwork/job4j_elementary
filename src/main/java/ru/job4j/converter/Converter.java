@@ -16,5 +16,18 @@ public class Converter {
 
         float dollarOfUsa = roubleToDollar(1000);
         System.out.println("1000 rubles are " + dollarOfUsa + " USA dollars.");
+
+        float input = 297;
+        float expected = 3;
+        float output = roubleToEuro(input);
+        boolean isPassed = expected == output;
+        System.out.println("297 rubles. It should be equal to 3. Test result is " + isPassed);
+
+        input = 450;
+        expected = 5;
+        output = roubleToDollar(input);
+        isPassed = expected == output;
+        System.out.println("450 rubles. It should be equal to 5. Test result is " + isPassed);
+
     }
 }
