@@ -18,7 +18,7 @@ public class MultipleSwitchWeek {
         System.out.println(numberOfDay("Вторник"));
         System.out.println(numberOfDay("Thursday"));
         System.out.println(numberOfDay("Saturday"));
-        System.out.println(numberOfDay("Книга"));
+        System.out.println(numberOfDay("Суббота"));
         System.out.println(numberOfDay("Воскресенье"));
     }
 }
