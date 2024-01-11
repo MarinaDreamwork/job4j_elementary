@@ -3,25 +3,25 @@ package ru.job4j.condition;
 public class MultipleSwitchWeek {
     public static int numberOfDay(String name) {
         return switch (name) {
-            case "Понедельник", "Monday" -> 1;
-            case "Вторник", "Tuesday" -> 2;
-            case "Среда", "Wednesday" -> 3;
-            case "Четверг", "Thursday" -> 4;
-            case "Пятница", "Friday" -> 5;
-            case "Суббота", "Saturday" -> 6;
-            case "Воскресенье", "Sunday" -> 7;
+            case "РџРѕРЅРµРґРµР»СЊРЅРёРє", "Monday" -> 1;
+            case "Р’С‚РѕСЂРЅРёРє", "Tuesday" -> 2;
+            case "РЎСЂРµРґР°", "Wednesday" -> 3;
+            case "Р§РµС‚РІРµСЂРі", "Thursday" -> 4;
+            case "РџСЏС‚РЅРёС†Р°", "Friday" -> 5;
+            case "РЎСѓР±Р±РѕС‚Р°", "Saturday" -> 6;
+            case "Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ", "Sunday" -> 7;
             default -> -1;
         };
     }
 
     public static void main(String[] args) {
-        System.out.println(numberOfDay("Понедельник"));
-        System.out.println(numberOfDay("Вторник"));
+        System.out.println(numberOfDay("РџРѕРЅРµРґРµР»СЊРЅРёРє"));
+        System.out.println(numberOfDay("Р’С‚РѕСЂРЅРёРє"));
         System.out.println(numberOfDay("Wednesday"));
         System.out.println(numberOfDay("Thursday"));
-        System.out.println(numberOfDay("Пятница"));
+        System.out.println(numberOfDay("РџСЏС‚РЅРёС†Р°"));
         System.out.println(numberOfDay("Saturday"));
-        System.out.println(numberOfDay("Суббота"));
-        System.out.println(numberOfDay("Воскресенье"));
+        System.out.println(numberOfDay("РЎСѓР±Р±РѕС‚Р°"));
+        System.out.println(numberOfDay("Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ"));
     }
 }
