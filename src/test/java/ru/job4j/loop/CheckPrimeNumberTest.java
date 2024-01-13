@@ -54,9 +54,9 @@ class CheckPrimeNumberTest {
     }
 
     @Test
-    void when2ThenFalse() {
+    void when2ThenTrue() {
         int number = 2;
         boolean result = CheckPrimeNumber.check(number);
-        assertThat(result).isFalse();
+        assertThat(result).isTrue();
     }
 }
