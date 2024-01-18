@@ -6,7 +6,6 @@ public class Square {
         for (int index = 0; index < bound; index++) {
             result[index] = index * index;
         }
-        /* заполнить массив через цикл элементами от 0 до bound , возведенными в квадрат */
         return result;
     }
 
